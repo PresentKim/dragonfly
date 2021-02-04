@@ -3,6 +3,7 @@ package block
 import (
 	"github.com/df-mc/dragonfly/dragonfly/block/colour"
 	"github.com/df-mc/dragonfly/dragonfly/block/fire"
+	"github.com/df-mc/dragonfly/dragonfly/block/sandstone"
 	"github.com/df-mc/dragonfly/dragonfly/block/wood"
 	"github.com/df-mc/dragonfly/dragonfly/internal/entity_internal"
 	"github.com/df-mc/dragonfly/dragonfly/internal/item_internal"
@@ -21,6 +22,20 @@ func init() {
 	_ = world.RegisterBlock(Diorite{Polished: true}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "diorite_smooth"}})
 	_ = world.RegisterBlock(Andesite{}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "andesite"}})
 	_ = world.RegisterBlock(Andesite{Polished: true}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "andesite_smooth"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Default()}, world.BlockState{Name: "minecraft:sandstone", Properties: map[string]interface{}{"sand_stone_type": "default"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Chiseled()}, world.BlockState{Name: "minecraft:sandstone", Properties: map[string]interface{}{"sand_stone_type": "heiroglyphs"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Cut()}, world.BlockState{Name: "minecraft:sandstone", Properties: map[string]interface{}{"sand_stone_type": "cut"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Smooth()}, world.BlockState{Name: "minecraft:sandstone", Properties: map[string]interface{}{"sand_stone_type": "smooth"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Default(), Red: true}, world.BlockState{Name: "minecraft:red_sandstone", Properties: map[string]interface{}{"sand_stone_type": "default"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Chiseled(), Red: true}, world.BlockState{Name: "minecraft:red_sandstone", Properties: map[string]interface{}{"sand_stone_type": "heiroglyphs"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Cut(), Red: true}, world.BlockState{Name: "minecraft:red_sandstone", Properties: map[string]interface{}{"sand_stone_type": "cut"}})
+	_ = world.RegisterBlock(Sandstone{Type: sandstone.Smooth(), Red: true}, world.BlockState{Name: "minecraft:red_sandstone", Properties: map[string]interface{}{"sand_stone_type": "smooth"}})
+	_ = world.RegisterBlock(Granite{Polished: true}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "granite_smooth"}})
+	_ = world.RegisterBlock(Diorite{}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "diorite"}})
+	_ = world.RegisterBlock(Diorite{Polished: true}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "diorite_smooth"}})
+	_ = world.RegisterBlock(Andesite{}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "andesite"}})
+	_ = world.RegisterBlock(Andesite{Polished: true}, world.BlockState{Name: "minecraft:stone", Properties: map[string]interface{}{"stone_type": "andesite_smooth"}})
+
 	_ = world.RegisterBlock(Grass{}, world.BlockState{Name: "minecraft:grass"})
 	_ = world.RegisterBlock(GrassPath{}, world.BlockState{Name: "minecraft:grass_path"})
 	_ = world.RegisterBlock(Dirt{}, world.BlockState{Name: "minecraft:dirt", Properties: map[string]interface{}{"dirt_type": "normal"}})
@@ -131,6 +146,14 @@ func init() {
 	world.RegisterItem("minecraft:stone", Diorite{Polished: true})
 	world.RegisterItem("minecraft:stone", Andesite{})
 	world.RegisterItem("minecraft:stone", Andesite{Polished: true})
+	world.RegisterItem("minecraft:sandstone", Sandstone{Type: sandstone.Default()})
+	world.RegisterItem("minecraft:sandstone", Sandstone{Type: sandstone.Chiseled()})
+	world.RegisterItem("minecraft:sandstone", Sandstone{Type: sandstone.Cut()})
+	world.RegisterItem("minecraft:sandstone", Sandstone{Type: sandstone.Smooth()})
+	world.RegisterItem("minecraft:red_sandstone", Sandstone{Type: sandstone.Default(), Red: true})
+	world.RegisterItem("minecraft:red_sandstone", Sandstone{Type: sandstone.Chiseled(), Red: true})
+	world.RegisterItem("minecraft:red_sandstone", Sandstone{Type: sandstone.Cut(), Red: true})
+	world.RegisterItem("minecraft:red_sandstone", Sandstone{Type: sandstone.Smooth(), Red: true})
 	world.RegisterItem("minecraft:grass", Grass{})
 	world.RegisterItem("minecraft:grass_path", GrassPath{})
 	world.RegisterItem("minecraft:dirt", Dirt{})
