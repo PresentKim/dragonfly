@@ -1,7 +1,9 @@
 package block
 
 import (
+	"fmt"
 	"github.com/df-mc/dragonfly/dragonfly/block/colour"
+	"github.com/df-mc/dragonfly/dragonfly/block/element"
 	"github.com/df-mc/dragonfly/dragonfly/block/fire"
 	"github.com/df-mc/dragonfly/dragonfly/block/sandstone"
 	"github.com/df-mc/dragonfly/dragonfly/block/wood"
@@ -134,6 +136,7 @@ func init() {
 	registerAll(allWheat())
 	registerAll(allQuartz())
 	registerAll(allNetherWart())
+	registerAll(allElements())
 }
 
 func init() {
@@ -206,6 +209,9 @@ func init() {
 		} else {
 			world.RegisterItem("minecraft:planks", Planks{Wood: w})
 		}
+	}
+	for _, e := range element.All() {
+		world.RegisterItem(fmt.Sprintf("minecraft:element_%d", e.Int16()), Element{Number: e})
 	}
 	world.RegisterItem("minecraft:oak_stairs", WoodStairs{Wood: wood.Oak()})
 	world.RegisterItem("minecraft:spruce_stairs", WoodStairs{Wood: wood.Spruce()})
