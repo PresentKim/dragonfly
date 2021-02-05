@@ -41,15 +41,5 @@ func (s Sandstone) EncodeItem() (id int32, meta int16) {
 	} else {
 		id = 24
 	}
-	switch s.Type {
-	case sandstone.Default():
-		return id, 0
-	case sandstone.Chiseled():
-		return id, 1
-	case sandstone.Cut():
-		return id, 2
-	case sandstone.Smooth():
-		return id, 3
-	}
-	panic("invalid sandstone type")
+	return id, int16(s.Type.Uint8())
 }
