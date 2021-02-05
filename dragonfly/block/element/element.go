@@ -17,358 +17,358 @@ func Unknown() Element {
 	return Element{element(0), 36}
 }
 func Hydrogen() Element {
-	return Element{element(1), 267}
+	return Element{element(1), -12}
 }
 func Helium() Element {
-	return Element{element(2), 268}
+	return Element{element(2), -13}
 }
 func Lithium() Element {
-	return Element{element(3), 269}
+	return Element{element(3), -14}
 }
 func Beryllium() Element {
-	return Element{element(4), 270}
+	return Element{element(4), -15}
 }
 func Boron() Element {
-	return Element{element(5), 271}
+	return Element{element(5), -16}
 }
 func Carbon() Element {
-	return Element{element(6), 272}
+	return Element{element(6), -17}
 }
 func Nitrogen() Element {
-	return Element{element(7), 273}
+	return Element{element(7), -18}
 }
 func Oxygen() Element {
-	return Element{element(8), 274}
+	return Element{element(8), -19}
 }
 func Fluorine() Element {
-	return Element{element(9), 275}
+	return Element{element(9), -20}
 }
 func Neon() Element {
-	return Element{element(10), 276}
+	return Element{element(10), -21}
 }
 func Sodium() Element {
-	return Element{element(11), 277}
+	return Element{element(11), -22}
 }
 func Magnesium() Element {
-	return Element{element(12), 278}
+	return Element{element(12), -23}
 }
 func Aluminum() Element {
-	return Element{element(13), 279}
+	return Element{element(13), -24}
 }
 func Silicon() Element {
-	return Element{element(14), 280}
+	return Element{element(14), -25}
 }
 func Phosphorus() Element {
-	return Element{element(15), 281}
+	return Element{element(15), -26}
 }
 func Sulfur() Element {
-	return Element{element(16), 282}
+	return Element{element(16), -27}
 }
 func Chlorine() Element {
-	return Element{element(17), 283}
+	return Element{element(17), -28}
 }
 func Argon() Element {
-	return Element{element(18), 284}
+	return Element{element(18), -29}
 }
 func Potassium() Element {
-	return Element{element(19), 285}
+	return Element{element(19), -30}
 }
 func Calcium() Element {
-	return Element{element(20), 286}
+	return Element{element(20), -31}
 }
 func Scandium() Element {
-	return Element{element(21), 287}
+	return Element{element(21), -32}
 }
 func Titanium() Element {
-	return Element{element(22), 288}
+	return Element{element(22), -33}
 }
 func Vanadium() Element {
-	return Element{element(23), 289}
+	return Element{element(23), -34}
 }
 func Chromium() Element {
-	return Element{element(24), 290}
+	return Element{element(24), -35}
 }
 func Manganese() Element {
-	return Element{element(25), 291}
+	return Element{element(25), -36}
 }
 func Iron() Element {
-	return Element{element(26), 292}
+	return Element{element(26), -37}
 }
 func Cobalt() Element {
-	return Element{element(27), 293}
+	return Element{element(27), -38}
 }
 func Nickel() Element {
-	return Element{element(28), 294}
+	return Element{element(28), -39}
 }
 func Copper() Element {
-	return Element{element(29), 295}
+	return Element{element(29), -40}
 }
 func Zinc() Element {
-	return Element{element(30), 296}
+	return Element{element(30), -41}
 }
 func Gallium() Element {
-	return Element{element(31), 297}
+	return Element{element(31), -42}
 }
 func Germanium() Element {
-	return Element{element(32), 298}
+	return Element{element(32), -43}
 }
 func Arsenic() Element {
-	return Element{element(33), 299}
+	return Element{element(33), -44}
 }
 func Selenium() Element {
-	return Element{element(34), 300}
+	return Element{element(34), -45}
 }
 func Bromine() Element {
-	return Element{element(35), 301}
+	return Element{element(35), -46}
 }
 func Krypton() Element {
-	return Element{element(36), 302}
+	return Element{element(36), -47}
 }
 func Rubidium() Element {
-	return Element{element(37), 303}
+	return Element{element(37), -48}
 }
 func Strontium() Element {
-	return Element{element(38), 304}
+	return Element{element(38), -49}
 }
 func Yttrium() Element {
-	return Element{element(39), 305}
+	return Element{element(39), -50}
 }
 func Zirconium() Element {
-	return Element{element(40), 306}
+	return Element{element(40), -51}
 }
 func Niobium() Element {
-	return Element{element(41), 307}
+	return Element{element(41), -52}
 }
 func Molybdenum() Element {
-	return Element{element(42), 308}
+	return Element{element(42), -53}
 }
 func Technetium() Element {
-	return Element{element(43), 309}
+	return Element{element(43), -54}
 }
 func Ruthenium() Element {
-	return Element{element(44), 310}
+	return Element{element(44), -55}
 }
 func Rhodium() Element {
-	return Element{element(45), 311}
+	return Element{element(45), -56}
 }
 func Palladium() Element {
-	return Element{element(46), 312}
+	return Element{element(46), -57}
 }
 func Silver() Element {
-	return Element{element(47), 313}
+	return Element{element(47), -58}
 }
 func Cadmium() Element {
-	return Element{element(48), 314}
+	return Element{element(48), -59}
 }
 func Indium() Element {
-	return Element{element(49), 315}
+	return Element{element(49), -60}
 }
 func Tin() Element {
-	return Element{element(50), 316}
+	return Element{element(50), -61}
 }
 func Antimony() Element {
-	return Element{element(51), 317}
+	return Element{element(51), -62}
 }
 func Tellurium() Element {
-	return Element{element(52), 318}
+	return Element{element(52), -63}
 }
 func Iodine() Element {
-	return Element{element(53), 319}
+	return Element{element(53), -64}
 }
 func Xenon() Element {
-	return Element{element(54), 320}
+	return Element{element(54), -65}
 }
 func Cesium() Element {
-	return Element{element(55), 321}
+	return Element{element(55), -66}
 }
 func Barium() Element {
-	return Element{element(56), 322}
+	return Element{element(56), -67}
 }
 func Lanthanum() Element {
-	return Element{element(57), 323}
+	return Element{element(57), -68}
 }
 func Cerium() Element {
-	return Element{element(58), 324}
+	return Element{element(58), -69}
 }
 func Praseodymium() Element {
-	return Element{element(59), 325}
+	return Element{element(59), -70}
 }
 func Neodymium() Element {
-	return Element{element(60), 326}
+	return Element{element(60), -71}
 }
 func Promethium() Element {
-	return Element{element(61), 327}
+	return Element{element(61), -72}
 }
 func Samarium() Element {
-	return Element{element(62), 328}
+	return Element{element(62), -73}
 }
 func Europium() Element {
-	return Element{element(63), 329}
+	return Element{element(63), -74}
 }
 func Gadolinium() Element {
-	return Element{element(64), 330}
+	return Element{element(64), -75}
 }
 func Terbium() Element {
-	return Element{element(65), 331}
+	return Element{element(65), -76}
 }
 func Dysprosium() Element {
-	return Element{element(66), 332}
+	return Element{element(66), -77}
 }
 func Holmium() Element {
-	return Element{element(67), 333}
+	return Element{element(67), -78}
 }
 func Erbium() Element {
-	return Element{element(68), 334}
+	return Element{element(68), -79}
 }
 func Thulium() Element {
-	return Element{element(69), 335}
+	return Element{element(69), -80}
 }
 func Ytterbium() Element {
-	return Element{element(70), 336}
+	return Element{element(70), -81}
 }
 func Lutetium() Element {
-	return Element{element(71), 337}
+	return Element{element(71), -82}
 }
 func Hafnium() Element {
-	return Element{element(72), 338}
+	return Element{element(72), -83}
 }
 func Tantalum() Element {
-	return Element{element(73), 339}
+	return Element{element(73), -84}
 }
 func Tungsten() Element {
-	return Element{element(74), 340}
+	return Element{element(74), -85}
 }
 func Rhenium() Element {
-	return Element{element(75), 341}
+	return Element{element(75), -86}
 }
 func Osmium() Element {
-	return Element{element(76), 342}
+	return Element{element(76), -87}
 }
 func Iridium() Element {
-	return Element{element(77), 343}
+	return Element{element(77), -88}
 }
 func Platinum() Element {
-	return Element{element(78), 344}
+	return Element{element(78), -89}
 }
 func Gold() Element {
-	return Element{element(79), 345}
+	return Element{element(79), -90}
 }
 func Mercury() Element {
-	return Element{element(80), 346}
+	return Element{element(80), -91}
 }
 func Thallium() Element {
-	return Element{element(81), 347}
+	return Element{element(81), -92}
 }
 func Lead() Element {
-	return Element{element(82), 348}
+	return Element{element(82), -93}
 }
 func Bismuth() Element {
-	return Element{element(83), 349}
+	return Element{element(83), -94}
 }
 func Polonium() Element {
-	return Element{element(84), 350}
+	return Element{element(84), -95}
 }
 func Astatine() Element {
-	return Element{element(85), 351}
+	return Element{element(85), -96}
 }
 func Radon() Element {
-	return Element{element(86), 352}
+	return Element{element(86), -97}
 }
 func Francium() Element {
-	return Element{element(87), 353}
+	return Element{element(87), -98}
 }
 func Radium() Element {
-	return Element{element(88), 354}
+	return Element{element(88), -99}
 }
 func Actinium() Element {
-	return Element{element(89), 355}
+	return Element{element(89), -100}
 }
 func Thorium() Element {
-	return Element{element(90), 356}
+	return Element{element(90), -101}
 }
 func Protactinium() Element {
-	return Element{element(91), 357}
+	return Element{element(91), -102}
 }
 func Uranium() Element {
-	return Element{element(92), 358}
+	return Element{element(92), -103}
 }
 func Neptunium() Element {
-	return Element{element(93), 359}
+	return Element{element(93), -104}
 }
 func Plutonium() Element {
-	return Element{element(94), 360}
+	return Element{element(94), -105}
 }
 func Americium() Element {
-	return Element{element(95), 361}
+	return Element{element(95), -106}
 }
 func Curium() Element {
-	return Element{element(96), 362}
+	return Element{element(96), -107}
 }
 func Berkelium() Element {
-	return Element{element(97), 363}
+	return Element{element(97), -108}
 }
 func Californium() Element {
-	return Element{element(98), 364}
+	return Element{element(98), -109}
 }
 func Einsteinium() Element {
-	return Element{element(99), 365}
+	return Element{element(99), -110}
 }
 func Fermium() Element {
-	return Element{element(100), 366}
+	return Element{element(100), -111}
 }
 func Mendelevium() Element {
-	return Element{element(101), 367}
+	return Element{element(101), -112}
 }
 func Nobelium() Element {
-	return Element{element(102), 368}
+	return Element{element(102), -113}
 }
 func Lawrencium() Element {
-	return Element{element(103), 369}
+	return Element{element(103), -114}
 }
 func Rutherfordium() Element {
-	return Element{element(104), 370}
+	return Element{element(104), -115}
 }
 func Dubnium() Element {
-	return Element{element(105), 371}
+	return Element{element(105), -116}
 }
 func Seaborgium() Element {
-	return Element{element(106), 372}
+	return Element{element(106), -117}
 }
 func Bohrium() Element {
-	return Element{element(107), 373}
+	return Element{element(107), -118}
 }
 func Hassium() Element {
-	return Element{element(108), 374}
+	return Element{element(108), -119}
 }
 func Meitnerium() Element {
-	return Element{element(109), 375}
+	return Element{element(109), -120}
 }
 func Darmstadtium() Element {
-	return Element{element(110), 376}
+	return Element{element(110), -121}
 }
 func Roentgenium() Element {
-	return Element{element(111), 377}
+	return Element{element(111), -122}
 }
 func Copernicium() Element {
-	return Element{element(112), 378}
+	return Element{element(112), -123}
 }
 func Nihonium() Element {
-	return Element{element(113), 379}
+	return Element{element(113), -124}
 }
 func Flerovium() Element {
-	return Element{element(114), 380}
+	return Element{element(114), -125}
 }
 func Moscovium() Element {
-	return Element{element(115), 381}
+	return Element{element(115), -126}
 }
 func Livermorium() Element {
-	return Element{element(116), 382}
+	return Element{element(116), -127}
 }
 func Tennessine() Element {
-	return Element{element(117), 383}
+	return Element{element(117), -128}
 }
 func Oganesson() Element {
-	return Element{element(118), 384}
+	return Element{element(118), -129}
 }
 
 // All returns a list of all element numbers
@@ -631,244 +631,244 @@ func (e element) Name() string {
 // FromString ...
 func (e element) FromString(s string) (interface{}, error) {
 	switch s {
-	case "unknown":
+	case "???":
 		return Element{element(0), 36}, nil
 	case "hydrogen":
-		return Element{element(1), 267}, nil
+		return Element{element(1), -12}, nil
 	case "helium":
-		return Element{element(2), 268}, nil
+		return Element{element(2), -13}, nil
 	case "lithium":
-		return Element{element(3), 269}, nil
+		return Element{element(3), -14}, nil
 	case "beryllium":
-		return Element{element(4), 270}, nil
+		return Element{element(4), -15}, nil
 	case "boron":
-		return Element{element(5), 271}, nil
+		return Element{element(5), -16}, nil
 	case "carbon":
-		return Element{element(6), 272}, nil
+		return Element{element(6), -17}, nil
 	case "nitrogen":
-		return Element{element(7), 273}, nil
+		return Element{element(7), -18}, nil
 	case "oxygen":
-		return Element{element(8), 274}, nil
+		return Element{element(8), -19}, nil
 	case "fluorine":
-		return Element{element(9), 275}, nil
+		return Element{element(9), -20}, nil
 	case "neon":
-		return Element{element(10), 276}, nil
+		return Element{element(10), -21}, nil
 	case "sodium":
-		return Element{element(11), 277}, nil
+		return Element{element(11), -22}, nil
 	case "magnesium":
-		return Element{element(12), 278}, nil
+		return Element{element(12), -23}, nil
 	case "aluminum":
-		return Element{element(13), 279}, nil
+		return Element{element(13), -24}, nil
 	case "silicon":
-		return Element{element(14), 280}, nil
+		return Element{element(14), -25}, nil
 	case "phosphorus":
-		return Element{element(15), 281}, nil
+		return Element{element(15), -26}, nil
 	case "sulfur":
-		return Element{element(16), 282}, nil
+		return Element{element(16), -27}, nil
 	case "chlorine":
-		return Element{element(17), 283}, nil
+		return Element{element(17), -28}, nil
 	case "argon":
-		return Element{element(18), 284}, nil
+		return Element{element(18), -29}, nil
 	case "potassium":
-		return Element{element(19), 285}, nil
+		return Element{element(19), -30}, nil
 	case "calcium":
-		return Element{element(20), 286}, nil
+		return Element{element(20), -31}, nil
 	case "scandium":
-		return Element{element(21), 287}, nil
+		return Element{element(21), -32}, nil
 	case "titanium":
-		return Element{element(22), 288}, nil
+		return Element{element(22), -33}, nil
 	case "vanadium":
-		return Element{element(23), 289}, nil
+		return Element{element(23), -34}, nil
 	case "chromium":
-		return Element{element(24), 290}, nil
+		return Element{element(24), -35}, nil
 	case "manganese":
-		return Element{element(25), 291}, nil
+		return Element{element(25), -36}, nil
 	case "iron":
-		return Element{element(26), 292}, nil
+		return Element{element(26), -37}, nil
 	case "cobalt":
-		return Element{element(27), 293}, nil
+		return Element{element(27), -38}, nil
 	case "nickel":
-		return Element{element(28), 294}, nil
+		return Element{element(28), -39}, nil
 	case "copper":
-		return Element{element(29), 295}, nil
+		return Element{element(29), -40}, nil
 	case "zinc":
-		return Element{element(30), 296}, nil
+		return Element{element(30), -41}, nil
 	case "gallium":
-		return Element{element(31), 297}, nil
+		return Element{element(31), -42}, nil
 	case "germanium":
-		return Element{element(32), 298}, nil
+		return Element{element(32), -43}, nil
 	case "arsenic":
-		return Element{element(33), 299}, nil
+		return Element{element(33), -44}, nil
 	case "selenium":
-		return Element{element(34), 300}, nil
+		return Element{element(34), -45}, nil
 	case "bromine":
-		return Element{element(35), 301}, nil
+		return Element{element(35), -46}, nil
 	case "krypton":
-		return Element{element(36), 302}, nil
+		return Element{element(36), -47}, nil
 	case "rubidium":
-		return Element{element(37), 303}, nil
+		return Element{element(37), -48}, nil
 	case "strontium":
-		return Element{element(38), 304}, nil
+		return Element{element(38), -49}, nil
 	case "yttrium":
-		return Element{element(39), 305}, nil
+		return Element{element(39), -50}, nil
 	case "zirconium":
-		return Element{element(40), 306}, nil
+		return Element{element(40), -51}, nil
 	case "niobium":
-		return Element{element(41), 307}, nil
+		return Element{element(41), -52}, nil
 	case "molybdenum":
-		return Element{element(42), 308}, nil
+		return Element{element(42), -53}, nil
 	case "technetium":
-		return Element{element(43), 309}, nil
+		return Element{element(43), -54}, nil
 	case "ruthenium":
-		return Element{element(44), 310}, nil
+		return Element{element(44), -55}, nil
 	case "rhodium":
-		return Element{element(45), 311}, nil
+		return Element{element(45), -56}, nil
 	case "palladium":
-		return Element{element(46), 312}, nil
+		return Element{element(46), -57}, nil
 	case "silver":
-		return Element{element(47), 313}, nil
+		return Element{element(47), -58}, nil
 	case "cadmium":
-		return Element{element(48), 314}, nil
+		return Element{element(48), -59}, nil
 	case "indium":
-		return Element{element(49), 315}, nil
+		return Element{element(49), -60}, nil
 	case "tin":
-		return Element{element(50), 316}, nil
+		return Element{element(50), -61}, nil
 	case "antimony":
-		return Element{element(51), 317}, nil
+		return Element{element(51), -62}, nil
 	case "tellurium":
-		return Element{element(52), 318}, nil
+		return Element{element(52), -63}, nil
 	case "iodine":
-		return Element{element(53), 319}, nil
+		return Element{element(53), -64}, nil
 	case "xenon":
-		return Element{element(54), 320}, nil
+		return Element{element(54), -65}, nil
 	case "cesium":
-		return Element{element(55), 321}, nil
+		return Element{element(55), -66}, nil
 	case "barium":
-		return Element{element(56), 322}, nil
+		return Element{element(56), -67}, nil
 	case "lanthanum":
-		return Element{element(57), 323}, nil
+		return Element{element(57), -68}, nil
 	case "cerium":
-		return Element{element(58), 324}, nil
+		return Element{element(58), -69}, nil
 	case "praseodymium":
-		return Element{element(59), 325}, nil
+		return Element{element(59), -70}, nil
 	case "neodymium":
-		return Element{element(60), 326}, nil
+		return Element{element(60), -71}, nil
 	case "promethium":
-		return Element{element(61), 327}, nil
+		return Element{element(61), -72}, nil
 	case "samarium":
-		return Element{element(62), 328}, nil
+		return Element{element(62), -73}, nil
 	case "europium":
-		return Element{element(63), 329}, nil
+		return Element{element(63), -74}, nil
 	case "gadolinium":
-		return Element{element(64), 330}, nil
+		return Element{element(64), -75}, nil
 	case "terbium":
-		return Element{element(65), 331}, nil
+		return Element{element(65), -76}, nil
 	case "dysprosium":
-		return Element{element(66), 332}, nil
+		return Element{element(66), -77}, nil
 	case "holmium":
-		return Element{element(67), 333}, nil
+		return Element{element(67), -78}, nil
 	case "erbium":
-		return Element{element(68), 334}, nil
+		return Element{element(68), -79}, nil
 	case "thulium":
-		return Element{element(69), 335}, nil
+		return Element{element(69), -80}, nil
 	case "ytterbium":
-		return Element{element(70), 336}, nil
+		return Element{element(70), -81}, nil
 	case "lutetium":
-		return Element{element(71), 337}, nil
+		return Element{element(71), -82}, nil
 	case "hafnium":
-		return Element{element(72), 338}, nil
+		return Element{element(72), -83}, nil
 	case "tantalum":
-		return Element{element(73), 339}, nil
+		return Element{element(73), -84}, nil
 	case "tungsten":
-		return Element{element(74), 340}, nil
+		return Element{element(74), -85}, nil
 	case "rhenium":
-		return Element{element(75), 341}, nil
+		return Element{element(75), -86}, nil
 	case "osmium":
-		return Element{element(76), 342}, nil
+		return Element{element(76), -87}, nil
 	case "iridium":
-		return Element{element(77), 343}, nil
+		return Element{element(77), -88}, nil
 	case "platinum":
-		return Element{element(78), 344}, nil
+		return Element{element(78), -89}, nil
 	case "gold":
-		return Element{element(79), 345}, nil
+		return Element{element(79), -90}, nil
 	case "mercury":
-		return Element{element(80), 346}, nil
+		return Element{element(80), -91}, nil
 	case "thallium":
-		return Element{element(81), 347}, nil
+		return Element{element(81), -92}, nil
 	case "lead":
-		return Element{element(82), 348}, nil
+		return Element{element(82), -93}, nil
 	case "bismuth":
-		return Element{element(83), 349}, nil
+		return Element{element(83), -94}, nil
 	case "polonium":
-		return Element{element(84), 350}, nil
+		return Element{element(84), -95}, nil
 	case "astatine":
-		return Element{element(85), 351}, nil
+		return Element{element(85), -96}, nil
 	case "radon":
-		return Element{element(86), 352}, nil
+		return Element{element(86), -97}, nil
 	case "francium":
-		return Element{element(87), 353}, nil
+		return Element{element(87), -98}, nil
 	case "radium":
-		return Element{element(88), 354}, nil
+		return Element{element(88), -99}, nil
 	case "actinium":
-		return Element{element(89), 355}, nil
+		return Element{element(89), -100}, nil
 	case "thorium":
-		return Element{element(90), 356}, nil
+		return Element{element(90), -101}, nil
 	case "protactinium":
-		return Element{element(91), 357}, nil
+		return Element{element(91), -102}, nil
 	case "uranium":
-		return Element{element(92), 358}, nil
+		return Element{element(92), -103}, nil
 	case "neptunium":
-		return Element{element(93), 359}, nil
+		return Element{element(93), -104}, nil
 	case "plutonium":
-		return Element{element(94), 360}, nil
+		return Element{element(94), -105}, nil
 	case "americium":
-		return Element{element(95), 361}, nil
+		return Element{element(95), -106}, nil
 	case "curium":
-		return Element{element(96), 362}, nil
+		return Element{element(96), -107}, nil
 	case "berkelium":
-		return Element{element(97), 363}, nil
+		return Element{element(97), -108}, nil
 	case "californium":
-		return Element{element(98), 364}, nil
+		return Element{element(98), -109}, nil
 	case "einsteinium":
-		return Element{element(99), 365}, nil
+		return Element{element(99), -110}, nil
 	case "fermium":
-		return Element{element(100), 366}, nil
+		return Element{element(100), -111}, nil
 	case "mendelevium":
-		return Element{element(101), 367}, nil
+		return Element{element(101), -112}, nil
 	case "nobelium":
-		return Element{element(102), 368}, nil
+		return Element{element(102), -113}, nil
 	case "lawrencium":
-		return Element{element(103), 369}, nil
+		return Element{element(103), -114}, nil
 	case "rutherfordium":
-		return Element{element(104), 370}, nil
+		return Element{element(104), -115}, nil
 	case "dubnium":
-		return Element{element(105), 371}, nil
+		return Element{element(105), -116}, nil
 	case "seaborgium":
-		return Element{element(106), 372}, nil
+		return Element{element(106), -117}, nil
 	case "bohrium":
-		return Element{element(107), 373}, nil
+		return Element{element(107), -118}, nil
 	case "hassium":
-		return Element{element(108), 374}, nil
+		return Element{element(108), -119}, nil
 	case "meitnerium":
-		return Element{element(109), 375}, nil
+		return Element{element(109), -120}, nil
 	case "darmstadtium":
-		return Element{element(110), 376}, nil
+		return Element{element(110), -121}, nil
 	case "roentgenium":
-		return Element{element(111), 377}, nil
+		return Element{element(111), -122}, nil
 	case "copernicium":
-		return Element{element(112), 378}, nil
+		return Element{element(112), -123}, nil
 	case "nihonium":
-		return Element{element(113), 379}, nil
+		return Element{element(113), -124}, nil
 	case "flerovium":
-		return Element{element(114), 380}, nil
+		return Element{element(114), -125}, nil
 	case "moscovium":
-		return Element{element(115), 381}, nil
+		return Element{element(115), -126}, nil
 	case "livermorium":
-		return Element{element(116), 382}, nil
+		return Element{element(116), -127}, nil
 	case "tennessine":
-		return Element{element(117), 383}, nil
+		return Element{element(117), -128}, nil
 	case "oganesson":
-		return Element{element(118), 384}, nil
+		return Element{element(118), -129}, nil
 	}
 
 	return nil, fmt.Errorf("unexpected element name '%v'", s)

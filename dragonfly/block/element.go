@@ -18,7 +18,7 @@ type (
 
 // EncodeItem ...
 func (e Element) EncodeItem() (id int32, meta int16) {
-	return e.Number.ItemId, e.Number.Int16()
+	return e.Number.ItemId, 0
 }
 
 // EncodeBlock ...
